@@ -1,0 +1,9 @@
+// Event delegation
+// event bubbling => target element => event delegation
+
+=> event delegation là event mà t ko đặt event vào cái ta đang quan tâm mà đặt event đó vào parent của nó bằng cá dùng event.target
+ 2 trường hợp sử dụng :
+ + khi thẻ có nhiều thẻ con => ko nên xét hết event cho từng thẻ con nếu action là như nhau mà xét event vào tk cha
+ + Sử dụng cho element mà element đó hiện tại chưa đc gắn vào DOM
+
+ // BLog về thao tác vs DOM: https://blog.garstasio.com/you-dont-need-jquery/
